@@ -1,0 +1,50 @@
+{
+  "weather_decision": "use_openmeteo",
+  "temperature_correlation": 0.0057073981667547825,
+  "comparisons": [
+    {
+      "variable": "Temperature",
+      "correlation": 0.0057073981667547825,
+      "mean_error": 8.718040804046874,
+      "mae": 12.758565821369476
+    },
+    {
+      "variable": "Humidity",
+      "correlation": -0.0020376631921920282,
+      "mean_error": -14.919869809526471,
+      "mae": 24.373214714753672
+    },
+    {
+      "variable": "Cloud Cover",
+      "correlation": -0.011232239660716719,
+      "mean_error": 13.416197986428369,
+      "mae": 41.852373126554696
+    },
+    {
+      "variable": "Wind Speed",
+      "correlation": -0.00024076354634031816,
+      "mean_error": -0.5834067929284303,
+      "mae": 3.895710884898055
+    }
+  ],
+  "zone": "ZoneA",
+  "zone_column": "Region/Zone ID",
+  "zone_rows": 43957,
+  "lat": 35.00984180463772,
+  "lon": -105.51861709741044,
+  "target_col": "Electricity Load",
+  "temp_col": "Temperature (\u00b0C)",
+  "humidity_col": "Humidity (%)",
+  "cloud_col": "Cloud Cover (%)",
+  "wind_col": "Wind Speed (m/s)",
+  "holiday_col": "Is Holiday",
+  "hist_load_col": "Historical Electricity Load (kW)",
+  "hourly_shape": [
+    36479,
+    8
+  ],
+  "date_range": [
+    "2021-01-01 00:00:00",
+    "2025-02-28 22:00:00"
+  ]
+}

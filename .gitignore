@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
+
+# Vite / Frontend caches
+.cache/
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+
+# Environment & Logs
+.env*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Large Datasets (optional tracking)
+backend/data/raw/*.csv
+
+# Figma / Platform-managed state
+/.figma/design-context/
+/.plugins/
+/.opencode-skills/

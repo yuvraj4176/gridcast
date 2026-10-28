@@ -1,0 +1,11 @@
+{
+  "title": "GridCast",
+  "description": "Forecast electricity demand with precision by selecting dates and periods, ideal for students, analysts, and utility planners seeking reliable insights.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
