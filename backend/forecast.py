@@ -3,7 +3,6 @@
 Core forecast logic for GridCast.
 Handles mode selection, feature building, prediction, and confidence bands.
 """
-import json
 import logging
 import numpy as np
 import pandas as pd

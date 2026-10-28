@@ -37,7 +37,3 @@ ENV/
 # Large Datasets (optional tracking)
 backend/data/raw/*.csv
 
-# Figma / Platform-managed state
-/.figma/design-context/
-/.plugins/
-/.opencode-skills/

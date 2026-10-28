@@ -3,7 +3,7 @@
 Tests for GridCast backend.
 """
 import pytest
-from datetime import date, datetime, timedelta
+from datetime import date
 import pandas as pd
 import numpy as np
 from fastapi.testclient import TestClient

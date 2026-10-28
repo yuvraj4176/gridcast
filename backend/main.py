@@ -26,7 +26,6 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 # Paths
-BASE = os.path.dirname(__file__)
 MODELS_DIR = os.path.join(BASE, "models")
 DATA_DIR = os.path.join(BASE, "data")
 
@@ -94,7 +93,7 @@ async def health_check():
 @app.get("/meta", response_model=MetaResponse)
 async def get_meta():
     """Get metadata for the UI (dataset ranges, etc)."""
-    if not app_state["hourly_df"] is not None:
+    if app_state["hourly_df"] is None:
         raise HTTPException(status_code=503, detail="Data not loaded")
         
     df = app_state["hourly_df"]
